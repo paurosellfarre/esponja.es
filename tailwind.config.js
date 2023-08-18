@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme")
+
 module.exports = {
   content: [
     `components/**/*.{vue,js}`,
@@ -13,7 +15,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Prompt", "sans-serif"],
+        sans: ["Prompt", ...defaultTheme.fontFamily.sans],
       },
     },
   },
