@@ -17,6 +17,13 @@ module.exports = {
       fontFamily: {
         sans: ["Prompt", ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        h1: "4rem",
+        h2: "3rem",
+        h3: "2rem",
+        h4: "1.5rem",
+        h5: "1.25rem",
+      },
     },
   },
   plugins: [],

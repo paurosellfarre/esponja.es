@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
   ],
-
+  css: ["/assets/css/main.css"],
   content: {
     documentDriven: true,
   },
