@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer id="footer">
     <div class="p-6 bg-yellow-300 text-center">
       <p>Este sitio web NO contiene cookies :)</p>
       <p>
