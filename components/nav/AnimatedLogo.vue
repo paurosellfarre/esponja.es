@@ -115,6 +115,7 @@
   width: 10px;
   height: 7px;
   top: 10px;
+  left: 10px;
   box-sizing: border-box;
   border-radius: 4px 4px 14px 14px;
   border: 3px solid black;
