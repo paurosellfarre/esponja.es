@@ -2,7 +2,7 @@
   <main>
     <ContentDoc>
       <template v-slot="{ doc }">
-        <article class="grid grid-cols-10 gap-8 lg:gap-x-44">
+        <article class="grid grid-cols-10 gap-8">
           <section class="col-span-full lg:col-span-6 lg:col-start-2">
             <!-- Headline -->
             <h1>{{ doc.headline }}</h1>
