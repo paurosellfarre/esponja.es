@@ -9,6 +9,12 @@
 </template>
 
 <script setup>
+//This page is not document driven, so we need to disable it orderwise it will throw an error when executing nuxt generate
+definePageMeta({
+  documentDriven: {
+    page: false,
+  },
+})
 const { data } = await useAsyncData("home", () =>
   queryContent("/blog")
     .only(["headline", "_path", "headline", "excerpt"])
