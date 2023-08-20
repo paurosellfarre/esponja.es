@@ -1,5 +1,6 @@
 ---
 title: "Guía de Esponjas y Estropajos | Esponja.es"
+excerpt: "Guía de Esponjas y Estropajos | Esponja.es"
 description: "En esta guía, conoceras todo sobre estos productos esenciales para la limpieza y el cuidado personal. Desde esponjas naturales hasta estropajos sintéticos, aprenderás sobre los tipos  de esponja disponibles, sus usos, y cómo elegir el adecuado para tus necesidades."
 headline: "Guía de Compra y Uso de Esponjas y Estropajos"
 ---

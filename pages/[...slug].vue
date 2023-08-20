@@ -26,10 +26,14 @@
 </template>
 
 <script setup lang="ts">
+const { page } = useContent()
+
 useSeoMeta({
-  ogTitle: "My Amazing Site",
-  ogDescription: "This is my amazing site, let me tell you all about it.",
-  ogImage: "https://example.com/image.png",
+  title: page?.value?.title || "Esponja.es",
+  ogTitle: page?.value?.title || "Esponja.es",
+  description: page?.value?.description || "Esponja.es",
+  ogDescription: page?.value?.description || "Esponja.es",
+  ogImage: page?.value?.image || "https://esponja.es/favicon.ico",
   twitterCard: "summary_large_image",
 })
 </script>
