@@ -26,10 +26,13 @@ Esta tabla te ayudará a conocer todos los tipos de esponja y estropajos que exi
 
 Las esponjas no son solo para lavar platos. Tienen una amplia gama de usos en el hogar y la belleza personal:
 
-- **Limpieza del Hogar**: Desde platos hasta baños, las esponjas son aliadas confiables en la limpieza diaria.
-- **Cuidado Personal**: Las esponjas exfoliantes ayudan a mantener la piel suave y saludable.
-- **Maquillaje**: Las esponjas de maquillaje logran una aplicación uniforme de productos líquidos o en crema.
-- **Aplicación de Productos**: Las esponjas de cocina son ideales para aplicar marinadas o salsas.
+| Tarea                          | Esponjas Recomendadas                                                                               |
+| ------------------------------ | --------------------------------------------------------------------------------------------------- |
+| Limpieza del Hogar             | Esponjas de Poliéster, Esponjas de Celulosa, Esponjas de Algodón, Esponjas de Microfibra            |
+| Cuidado Personal               | Esponjas de Konjac, Esponjas de Luffa                                                               |
+| Maquillaje                     | Esponjas de Maquillaje, Esponjas de Maquillaje de Belleza, Esponjas de Maquillaje en Forma de Huevo |
+| Aplicación de Productos        | Esponjas de Cocina, Esponjas de Silicona                                                            |
+| Limpieza Profunda de la Cocina | Esponjas de Aluminio, Estropajos de Acero Inoxidable, Esponjas Abrasivas                            |
 
 ## Cómo Elegir la Esponja Perfecta
 
