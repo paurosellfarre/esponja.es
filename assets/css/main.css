@@ -19,7 +19,7 @@ h3 {
 
 /* Estilo para el cuerpo del texto */
 p {
-  @apply text-base text-gray-500;
+  @apply text-base text-gray-500 mb-5;
 }
 
 body {
@@ -27,12 +27,6 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: 1fr auto;
-}
-
-#page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 #footer {
