@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
   ],
   css: ["/assets/css/main.css"],
+  ssr: true,
   experimental: {
     payloadExtraction: false,
   },
