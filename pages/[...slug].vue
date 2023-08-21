@@ -39,3 +39,36 @@
     </ContentDoc>
   </main>
 </template>
+
+<script setup lang="ts">
+const { page } = useContent()
+
+useSeoMeta({
+  title: page?.value?.title,
+  ogTitle: page?.value?.title,
+  description: page?.value?.description,
+  ogDescription: page?.value?.description,
+  ogImage: page?.value?.socialImage?.src,
+  ogImageAlt: page?.value?.socialImage?.alt,
+  ogImageHeight: page?.value?.socialImage?.height,
+  ogImageWidth: page?.value?.socialImage?.width,
+  ogImageType: page?.value?.socialImage?.mime,
+  twitterCard: "summary_large_image",
+})
+
+useSchemaOrg([
+  defineArticle({
+    "@type": "BlogPosting",
+    headline: page?.value?.headline || "Esponja.es",
+    description: page?.value?.description || "Esponja.es",
+    image: page?.value?.image,
+    datePublished: page?.value?.datePublished,
+    dateModified: page?.value?.dateModified || page?.value?.datePublished,
+    // attaching an author when the identity is an organization
+    author: {
+      name: "Redactor de Esponja.es",
+      url: "https://github.com/paurosellfarre",
+    },
+  }),
+])
+</script>
