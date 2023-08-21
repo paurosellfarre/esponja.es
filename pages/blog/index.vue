@@ -15,9 +15,9 @@ definePageMeta({
     page: false,
   },
 })
-const { data } = await useAsyncData("home", () =>
+const { data } = await useAsyncData("blog", () =>
   queryContent("/blog")
-    .only(["headline", "_path", "headline", "excerpt"])
+    .only(["headline", "_path", "headline", "description", "datePublished"])
     .find()
 )
 </script>

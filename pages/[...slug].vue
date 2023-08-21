@@ -7,7 +7,7 @@
             <!-- Headline -->
             <h1>{{ doc.headline }}</h1>
 
-            <!-- Excerpt / Description -->
+            <!-- Description -->
             <p>{{ doc.description }}</p>
           </section>
 
@@ -29,25 +29,25 @@
 const { page } = useContent()
 
 useSeoMeta({
-  title: page?.value?.title || "Esponja.es",
-  ogTitle: page?.value?.title || "Esponja.es",
-  description: page?.value?.description || "Esponja.es",
-  ogDescription: page?.value?.description || "Esponja.es",
-  ogImage: page?.value?.image || "https://esponja.es/favicon.ico",
+  title: page?.value?.title,
+  ogTitle: page?.value?.title,
+  description: page?.value?.description,
+  ogDescription: page?.value?.description,
+  ogImage: page?.value?.socialImage?.src,
   twitterCard: "summary_large_image",
 })
 
 useSchemaOrg([
   defineArticle({
-    headline: page?.value?.title || "Esponja.es",
+    "@type": "BlogPosting",
+    headline: page?.value?.headline || "Esponja.es",
     description: page?.value?.description || "Esponja.es",
-    image: page?.value?.image || "https://esponja.es/favicon.ico",
-    datePublished:
-      page?.value?.datePublished || new Date(2023, 8, 21).toISOString(),
-    dateModified: page?.value?.dateModified,
+    image: page?.value?.image,
+    datePublished: page?.value?.datePublished,
+    dateModified: page?.value?.dateModified || page?.value?.datePublished,
     // attaching an author when the identity is an organization
     author: {
-      name: "Pau Rosell",
+      name: "Redactor de Esponja.es",
       url: "https://github.com/paurosellfarre",
     },
   }),

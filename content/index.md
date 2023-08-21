@@ -1,8 +1,15 @@
 ---
 title: "Guía de Esponjas y Estropajos | Esponja.es"
-excerpt: "Guía de Esponjas y Estropajos | Esponja.es"
-description: "En esta guía, conoceras todo sobre estos productos esenciales para la limpieza y el cuidado personal. Desde esponjas naturales hasta estropajos sintéticos, aprenderás sobre los tipos  de esponja disponibles, sus usos, y cómo elegir el adecuado para tus necesidades."
 headline: "Guía de Compra y Uso de Esponjas y Estropajos"
+description: "En esta guía, conoceras todo sobre estos productos esenciales para la limpieza y el cuidado personal. Desde esponjas naturales hasta estropajos sintéticos, aprenderás sobre los tipos  de esponja disponibles, sus usos, y cómo elegir el adecuado para tus necesidades."
+datePublished: "2023-08-21T10:00:00"
+dateModified: "2023-08-21T10:00:00"
+socialImage:
+  src: "/img/guia-de-esponjas-y-estropajos.webp"
+  mime: "webp"
+  alt: "Esponjas amarillas con gotas de agua"
+  width: 600
+  height: 600
 ---
 
 _¿Tienes una esponja en casa?_ Si es así, probablemente la uses para lavar los platos. Pero, ¿sabías que hay muchos otros tipos de esponjas? En esta guía, exploraremos los diferentes tipos de esponjas y estropajos, sus usos y cómo elegir el adecuado para tus necesidades.

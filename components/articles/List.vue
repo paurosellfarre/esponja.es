@@ -1,6 +1,6 @@
 <template>
   <section>
-    <ul class="grid grid-cols-10 gap-4 text-typography_primary">
+    <ul class="grid grid-cols-10 gap-8 text-typography_primary">
       <li
         v-for="article in data"
         :key="article.headline"
@@ -17,7 +17,7 @@
               >
                 {{ article.headline }}
               </h2>
-              <p>{{ article.excerpt }}</p>
+              <p>{{ article.description }}</p>
             </header>
           </div>
         </NuxtLink>
