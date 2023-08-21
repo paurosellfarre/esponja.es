@@ -10,18 +10,7 @@ export default defineNuxtConfig({
   ],
   css: ["/assets/css/main.css"],
   ssr: true,
-  content: {
-    documentDriven: true,
-  },
-  experimental: {
-    payloadExtraction: false,
-  },
-  router: {
-    options: {
-      strict: false,
-    },
-  },
-  sourcemap: false,
+
   site: {
     url: "https://www.esponja.es",
   },
