@@ -24,9 +24,6 @@ export default defineNuxtConfig({
   schemaOrg: {
     host: "https://www.esponja.es",
   },
-  routeRules: {
-    "/**": { isr: true },
-  },
   googleFonts: {
     display: "swap",
     families: {
