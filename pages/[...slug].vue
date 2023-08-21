@@ -36,4 +36,18 @@ useSeoMeta({
   ogImage: page?.value?.image || "https://esponja.es/favicon.ico",
   twitterCard: "summary_large_image",
 })
+
+useSchemaOrg([
+  defineArticle({
+    headline: page?.value?.title || "Esponja.es",
+    description: page?.value?.description || "Esponja.es",
+    image: page?.value?.image || "https://esponja.es/favicon.ico",
+    datePublished: page?.value?.datePublished || new Date(),
+    dateModified: new Date(),
+    // attaching an author when the identity is an organization
+    author: {
+      name: "Pau Rosell",
+    },
+  }),
+])
 </script>

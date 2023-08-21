@@ -7,3 +7,20 @@
     <NavFooter />
   </div>
 </template>
+
+<script lang="ts" setup>
+useSchemaOrg([
+  definePerson({
+    name: "Pau Rosell",
+    image: "/favicon.ico",
+    sameAs: ["https://github.com/paurosellfarre"],
+  }),
+  defineWebSite({
+    name: "Esponja.es",
+    description:
+      "Esponja.es es una web de información sobre todo lo relacionado con las esponjas y estropajos.",
+    inLanguage: ["es-ES"],
+  }),
+  defineWebPage(),
+])
+</script>

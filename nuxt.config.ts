@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "nuxt-simple-sitemap",
     "nuxt-simple-robots",
+    "nuxt-schema-org",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
   ],
@@ -13,6 +14,14 @@ export default defineNuxtConfig({
   },
   site: {
     url: "https://www.esponja.es",
+  },
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "https://www.esponja.es",
+    },
+  },
+  schemaOrg: {
+    host: "https://www.esponja.es",
   },
   routeRules: {
     "/**": { isr: true },

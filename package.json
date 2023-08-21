@@ -13,6 +13,7 @@
     "@types/node": "^18.17.3",
     "autoprefixer": "^10.4.15",
     "nuxt": "^3.6.5",
+    "nuxt-schema-org": "^2.2.0",
     "nuxt-simple-robots": "^3.1.1"
   },
   "dependencies": {
