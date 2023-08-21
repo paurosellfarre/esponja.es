@@ -5,7 +5,7 @@ description: "En esta guía, conoceras todo sobre estos productos esenciales par
 datePublished: "2023-08-21T10:00:00"
 dateModified: "2023-08-21T10:00:00"
 socialImage:
-  src: "/img/guia-de-esponjas-y-estropajos.webp"
+  src: "/img/content/guia-de-esponjas-y-estropajos.webp"
   mime: "webp"
   alt: "Esponjas amarillas con gotas de agua"
   width: 600
