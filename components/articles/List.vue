@@ -11,6 +11,12 @@
           class="p-4 block relative"
         >
           <div class="wrapper">
+            <img
+              key="article.socialImage.src"
+              :src="article.socialImage.src"
+              :alt="article.socialImage.alt"
+              class="rounded-md max-h-48 w-full object-cover"
+            />
             <header>
               <h2
                 class="text-h3 leading-h3 font-semibold mb-2 group-hover:text-brand_primary"

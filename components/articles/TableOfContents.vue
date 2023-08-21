@@ -9,7 +9,7 @@
       <li
         v-for="link of flattenLinks(links)"
         :key="link.id"
-        :class="`first:mt-0 mt-2 md:mt-1`"
+        :class="`toc-link_${link.depth} first:mt-0 mt-2 md:mt-1`"
       >
         <a
           :href="`#${link.id}`"

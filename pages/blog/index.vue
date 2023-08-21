@@ -17,7 +17,7 @@ definePageMeta({
 })
 const { data } = await useAsyncData("blog", () =>
   queryContent("/blog")
-    .only(["headline", "_path", "headline", "description", "datePublished"])
+    .only(["headline", "_path", "socialImage", "description", "datePublished"])
     .find()
 )
 </script>

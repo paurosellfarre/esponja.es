@@ -4,7 +4,7 @@
     :alt="alt"
     :width="width"
     :height="height"
-    class="rounded-md mx-auto lg:pb-4"
+    class="rounded-md mx-auto lg:pb-4 lg:max-w-lg"
   />
 </template>
 
