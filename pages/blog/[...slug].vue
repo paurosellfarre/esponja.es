@@ -41,6 +41,11 @@
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+  documentDriven: {
+    page: false,
+  },
+})
 const { path } = useRoute()
 const cleanPath = path.replace(/\/+$/, "")
 const { data, error } = await useAsyncData(`content-${cleanPath}`, async () => {
