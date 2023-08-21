@@ -9,8 +9,12 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
   ],
   css: ["/assets/css/main.css"],
-  ssr: true,
-
+  content: {
+    documentDriven: true,
+    experimental: {
+      clientDb: true,
+    },
+  },
   site: {
     url: "https://www.esponja.es",
   },
