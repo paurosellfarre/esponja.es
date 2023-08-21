@@ -10,8 +10,12 @@ export default defineNuxtConfig({
   ],
   css: ["/assets/css/main.css"],
   ssr: true,
+  target: "static",
   content: {
     documentDriven: true,
+  },
+  generate: {
+    fallback: true,
   },
   site: {
     url: "https://www.esponja.es",
