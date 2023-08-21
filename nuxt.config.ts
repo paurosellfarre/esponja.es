@@ -10,9 +10,7 @@ export default defineNuxtConfig({
   ],
   css: ["/assets/css/main.css"],
   ssr: true,
-  experimental: {
-    payloadExtraction: false,
-  },
+
   content: {
     documentDriven: true,
   },
