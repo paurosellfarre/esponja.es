@@ -13,6 +13,15 @@ export default defineNuxtConfig({
   content: {
     documentDriven: true,
   },
+  experimental: {
+    payloadExtraction: false,
+  },
+  router: {
+    options: {
+      strict: false,
+    },
+  },
+  sourcemap: false,
   site: {
     url: "https://www.esponja.es",
   },
