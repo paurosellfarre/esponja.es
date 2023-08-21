@@ -12,6 +12,8 @@ socialImage:
   height: 600
 ---
 
+![Banner Esponjas amarillas con gotas de agua](/img/content/guia-de-esponjas-y-estropajos-banner.webp)
+
 _¿Tienes una esponja en casa?_ Si es así, probablemente la uses para lavar los platos. Pero, ¿sabías que hay muchos otros tipos de esponjas? En esta guía, exploraremos los diferentes tipos de esponjas y estropajos, sus usos y cómo elegir el adecuado para tus necesidades.
 
 ## ¿Qué es una Esponja?

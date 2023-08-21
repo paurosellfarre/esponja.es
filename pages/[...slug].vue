@@ -2,7 +2,7 @@
   <main>
     <ContentDoc>
       <template v-slot="{ doc }">
-        <article class="grid grid-cols-10 gap-8">
+        <article class="relative grid grid-cols-10 gap-x-8">
           <section class="col-span-full lg:col-span-6 lg:col-start-2">
             <!-- Headline -->
             <h1>{{ doc.headline }}</h1>
@@ -13,7 +13,7 @@
 
           <ArticlesTableOfContents
             :links="doc?.body?.toc?.links"
-            class="col-span-full lg:col-span-3 sm:mt-12 lg:mt-20"
+            class="col-span-full lg:col-span-3 sm:mt-12 lg:mt-20 lg:sticky lg:top-5"
           />
           <ContentRenderer
             :value="doc"
@@ -34,6 +34,10 @@ useSeoMeta({
   description: page?.value?.description,
   ogDescription: page?.value?.description,
   ogImage: page?.value?.socialImage?.src,
+  ogImageAlt: page?.value?.socialImage?.alt,
+  ogImageHeight: page?.value?.socialImage?.height,
+  ogImageWidth: page?.value?.socialImage?.width,
+  ogImageType: page?.value?.socialImage?.mime,
   twitterCard: "summary_large_image",
 })
 
