@@ -21,6 +21,9 @@ useSchemaOrg([
       "Esponja.es es una web de información sobre todo lo relacionado con las esponjas y estropajos.",
     inLanguage: ["es-ES"],
   }),
-  defineWebPage(),
+  defineWebPage({
+    datePublished: new Date(2023, 8, 21).toISOString(),
+    dateModified: new Date(2023, 8, 21).toISOString(),
+  }),
 ])
 </script>
