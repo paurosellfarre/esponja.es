@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
   ],
   css: ["/assets/css/main.css"],
-  ssr: true,
+  ssr: false,
   content: {
     experimental: {
       clientDB: true,
@@ -34,10 +34,5 @@ export default defineNuxtConfig({
     families: {
       Prompt: true,
     },
-  },
-  routeRules: {
-    "/**": { prerender: true },
-    "/blog/": { prerender: true },
-    "/blog/las-15-mejores-tipos-de-esponja": { ssr: false, prerender: true },
   },
 })
