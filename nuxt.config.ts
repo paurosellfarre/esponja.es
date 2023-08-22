@@ -9,12 +9,6 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
   ],
   css: ["/assets/css/main.css"],
-  ssr: false,
-  content: {
-    experimental: {
-      clientDB: true,
-    },
-  },
   sitemap: {
     strictNuxtContentPaths: true,
   },
@@ -38,7 +32,10 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ["/", "/blog/", "/blog/las-15-mejores-tipos-de-esponja"],
+      routes: ["/sitemap.xml"],
     },
+  },
+  routeRules: {
+    "/blog/las-15-mejores-tipos-de-esponja": { prerender: true },
   },
 })
