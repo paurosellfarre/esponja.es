@@ -41,8 +41,4 @@ export default defineNuxtConfig({
       routes: ["/", "/blog/", "/blog/las-15-mejores-tipos-de-esponja"],
     },
   },
-  routeRules: {
-    "/**": { prerender: true },
-    "/blog/**": { ssr: true, prerender: true },
-  },
 })
