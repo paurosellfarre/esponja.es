@@ -10,6 +10,11 @@ export default defineNuxtConfig({
   ],
   css: ["/assets/css/main.css"],
   ssr: true,
+  content: {
+    experimental: {
+      clientDB: true,
+    },
+  },
   sitemap: {
     strictNuxtContentPaths: true,
   },
@@ -30,13 +35,9 @@ export default defineNuxtConfig({
       Prompt: true,
     },
   },
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: ["/", "/blog/", "/blog/las-15-mejores-tipos-de-esponja"],
-    },
-  },
   routeRules: {
     "/**": { prerender: true },
+    "/blog/": { prerender: true },
+    "/blog/las-15-mejores-tipos-de-esponja": { prerender: true },
   },
 })
