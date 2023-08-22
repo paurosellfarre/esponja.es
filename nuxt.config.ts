@@ -35,4 +35,14 @@ export default defineNuxtConfig({
       Prompt: true,
     },
   },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "/blog/", "/blog/las-15-mejores-tipos-de-esponja"],
+    },
+  },
+  routeRules: {
+    "/**": { prerender: true },
+    "/blog/**": { ssr: true, prerender: true },
+  },
 })
