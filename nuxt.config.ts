@@ -10,8 +10,8 @@ export default defineNuxtConfig({
   ],
   css: ["/assets/css/main.css"],
   ssr: true,
-  content: {
-    documentDriven: true,
+  sitemap: {
+    strictNuxtContentPaths: true,
   },
   site: {
     url: "https://www.esponja.es",
@@ -28,6 +28,12 @@ export default defineNuxtConfig({
     display: "swap",
     families: {
       Prompt: true,
+    },
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "/blog", "/blog/las-15-mejores-tipos-de-esponja"],
     },
   },
 })

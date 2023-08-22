@@ -41,8 +41,10 @@
 </template>
 
 <script setup lang="ts">
-const { data, error } = await useAsyncData(`content-index`, async () => {
-  let article = queryContent("/").findOne()
+const { path } = useRoute()
+const cleanPath = path.replace(/\/+$/, "")
+const { data, error } = await useAsyncData(`content-${cleanPath}`, async () => {
+  let article = queryContent("/blog").where({ _path: cleanPath }).findOne()
   return {
     article: await article,
   }
