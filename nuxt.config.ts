@@ -42,4 +42,13 @@ export default defineNuxtConfig({
       ],
     },
   },
+  generate: {
+    routes: [
+      "/",
+      "/blog",
+      "/blog/las-15-mejores-tipos-de-esponja",
+      "/sitemap.xml",
+      "/robots.txt",
+    ], // one of routes getting 404
+  },
 })
