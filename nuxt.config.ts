@@ -9,7 +9,12 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
   ],
   css: ["/assets/css/main.css"],
-  ssr: true,
+  ssr: false,
+  content: {
+    experimental: {
+      clientDB: true,
+    },
+  },
   sitemap: {
     strictNuxtContentPaths: true,
   },
@@ -41,14 +46,5 @@ export default defineNuxtConfig({
         "/robots.txt",
       ],
     },
-  },
-  generate: {
-    routes: [
-      "/",
-      "/blog",
-      "/blog/las-15-mejores-tipos-de-esponja",
-      "/sitemap.xml",
-      "/robots.txt",
-    ], // one of routes getting 404
   },
 })
