@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
   ],
   css: ["/assets/css/main.css"],
-  ssr: false,
+  ssr: true,
   sitemap: {
     strictNuxtContentPaths: true,
   },
