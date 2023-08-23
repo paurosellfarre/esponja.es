@@ -41,29 +41,41 @@
 </template>
 
 <script setup lang="ts">
-const { page } = useContent()
+const props = defineProps({
+  page: {
+    type: Object,
+    required: true,
+  },
+})
+
+const { path } = useRoute()
+const cleanPath = path.replace(/\/+$/, "")
 
 useSeoMeta({
-  title: page?.value?.title,
-  ogTitle: page?.value?.title,
-  description: page?.value?.description,
-  ogDescription: page?.value?.description,
-  ogImage: page?.value?.socialImage?.src,
-  ogImageAlt: page?.value?.socialImage?.alt,
-  ogImageHeight: page?.value?.socialImage?.height,
-  ogImageWidth: page?.value?.socialImage?.width,
-  ogImageType: page?.value?.socialImage?.mime,
+  title: props.page?.title,
+  ogTitle: props.page?.title,
+  description: props.page?.description,
+  ogDescription: props.page?.description,
+  ogImage: props.page?.socialImage?.src,
+  ogImageAlt: props.page?.socialImage?.alt,
+  ogImageHeight: props.page?.socialImage?.height,
+  ogImageWidth: props.page?.socialImage?.width,
+  ogImageType: props.page?.socialImage?.mime,
+  ogUrl: `https://esponja.es${cleanPath}`,
+  twitterTitle: props.page?.title,
+  twitterDescription: props.page?.description,
+  twitterImage: props.page?.socialImage?.src,
   twitterCard: "summary_large_image",
 })
 
 useSchemaOrg([
   defineArticle({
     "@type": "BlogPosting",
-    headline: page?.value?.headline || "Esponja.es",
-    description: page?.value?.description || "Esponja.es",
-    image: page?.value?.image,
-    datePublished: page?.value?.datePublished,
-    dateModified: page?.value?.dateModified || page?.value?.datePublished,
+    headline: props.page?.headline || "Esponja.es",
+    description: props.page?.description || "Esponja.es",
+    image: props.page?.socialImage?.src,
+    datePublished: props.page?.datePublished,
+    dateModified: props.page?.dateModified || props.page?.datePublished,
     // attaching an author when the identity is an organization
     author: {
       name: "Redactor de Esponja.es",
