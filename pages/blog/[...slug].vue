@@ -43,36 +43,32 @@
 <script setup lang="ts">
 const { path } = useRoute()
 const cleanPath = path.replace(/\/+$/, "")
-const { data, error } = await useAsyncData(`content-${cleanPath}`, async () => {
-  let article = queryContent("/blog").where({ _path: cleanPath }).findOne()
-  return {
-    article: await article,
-  }
-})
+const { data: page, error } = await useAsyncData(
+  `content-${cleanPath}`,
+  queryContent("/blog").where({ _path: cleanPath }).findOne
+)
 
 useSeoMeta({
-  title: data?.value?.article?.page?.value?.title,
-  ogTitle: data?.value?.article?.page?.value?.title,
-  description: data?.value?.article?.page?.value?.description,
-  ogDescription: data?.value?.article?.page?.value?.description,
-  ogImage: data?.value?.article?.page?.value?.socialImage?.src,
-  ogImageAlt: data?.value?.article?.page?.value?.socialImage?.alt,
-  ogImageHeight: data?.value?.article?.page?.value?.socialImage?.height,
-  ogImageWidth: data?.value?.article?.page?.value?.socialImage?.width,
-  ogImageType: data?.value?.article?.page?.value?.socialImage?.mime,
+  title: page?.value?.title,
+  ogTitle: page?.value?.title,
+  description: page?.value?.description,
+  ogDescription: page?.value?.description,
+  ogImage: page?.value?.socialImage?.src,
+  ogImageAlt: page?.value?.socialImage?.alt,
+  ogImageHeight: page?.value?.socialImage?.height,
+  ogImageWidth: page?.value?.socialImage?.width,
+  ogImageType: page?.value?.socialImage?.mime,
   twitterCard: "summary_large_image",
 })
 
 useSchemaOrg([
   defineArticle({
     "@type": "BlogPosting",
-    headline: data?.value?.article?.page?.value?.headline || "Esponja.es",
-    description: data?.value?.article?.page?.value?.description || "Esponja.es",
-    image: data?.value?.article?.page?.value?.image,
-    datePublished: data?.value?.article?.page?.value?.datePublished,
-    dateModified:
-      data?.value?.article?.page?.value?.dateModified ||
-      data?.value?.article?.page?.value?.datePublished,
+    headline: page?.value?.headline || "Esponja.es",
+    description: page?.value?.description || "Esponja.es",
+    image: page?.value?.socialImage?.src,
+    datePublished: page?.value?.datePublished,
+    dateModified: page?.value?.dateModified || page?.value?.datePublished,
     // attaching an author when the identity is an organization
     author: {
       name: "Redactor de Esponja.es",
