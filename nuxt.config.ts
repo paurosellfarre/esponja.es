@@ -11,7 +11,6 @@ export default defineNuxtConfig({
   css: ["/assets/css/main.css"],
   sitemap: {
     strictNuxtContentPaths: true,
-    autoLastmod: false,
   },
   site: {
     url: "https://www.esponja.es",
