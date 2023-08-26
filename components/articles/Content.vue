@@ -9,6 +9,14 @@
 
             <!-- Description -->
             <p>{{ doc.description }}</p>
+
+            <img
+              :src="doc.socialImage.src"
+              :alt="doc.socialImage.alt"
+              :width="doc.socialImage.width"
+              :height="doc.socialImage.height"
+              class="rounded-md mx-auto lg:pb-4 lg:max-w-lg"
+            />
           </section>
 
           <ArticlesTableOfContents

@@ -21,7 +21,6 @@
   overflow: hidden;
   width: 100px;
   height: 80px;
-  margin-left: 25px;
 }
 .aquarium *,
 .aquarium *::before,
