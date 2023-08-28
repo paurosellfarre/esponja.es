@@ -11,6 +11,7 @@
             <p>{{ doc.description }}</p>
 
             <img
+              v-if="doc.socialImage.enabled"
               :src="doc.socialImage.src"
               :alt="doc.socialImage.alt"
               :width="doc.socialImage.width"

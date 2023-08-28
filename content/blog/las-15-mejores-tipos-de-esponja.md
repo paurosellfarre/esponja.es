@@ -2,14 +2,17 @@
 title: "Los Mejores 15 Tipos de Esponja: ¿Qué Esponja Elegir? | Esponja.es"
 headline: "Los Mejores 15 Tipos de Esponja: ¿Qué Esponja Elegir?"
 description: "¿Alguna vez te has preguntado cuántos tipos de esponjas existen y cuál es la adecuada para tus necesidades específicas? ¡Estás en el lugar correcto!"
-datePublished: "2023-08-21T10:00:00"
-dateModified: "2023-08-21T10:00:00"
+datePublished: "2023-08-26T17:20:00"
+dateModified: "2023-08-26T17:20:00"
 socialImage:
   src: "/img/content/blog/las-15-mejores-tipos-de-esponja/comparacion-las-mejores-15-tipos-de-esponjas.webp"
   mime: "webp"
   alt: "Diferentes tipos de esponjas y estropajos"
   width: 600
   height: 600
+  enabled: true
+sitemap:
+  lastmod: "2023-08-26T17:20:00"
 ---
 
 En esta guía, exploraremos a fondo _los tipos de esponja_, desde las naturales hasta las sintéticas, y te proporcionaremos la información que necesitas para tomar decisiones informadas.

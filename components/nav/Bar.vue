@@ -17,7 +17,14 @@
           <NuxtLink
             to="/tipos-de-esponjas-y-estropajos/esponja-natural"
             class="font-concertOne font-bold text-2xl text-gray-800 hover:text-gray-600"
-            >Esponjas Naturales</NuxtLink
+            >Esponja Natural</NuxtLink
+          >
+        </li>
+        <li class="sm:mr-6">
+          <NuxtLink
+            to="/tipos-de-esponjas-y-estropajos/esponja-sintetica"
+            class="font-concertOne font-bold text-2xl text-gray-800 hover:text-gray-600"
+            >Esponja Sintética</NuxtLink
           >
         </li>
         <li class="sm:mr-6">

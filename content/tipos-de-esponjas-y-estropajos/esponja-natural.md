@@ -2,14 +2,17 @@
 title: "Esponjas Naturales: Las Mejores para tu Cuidado | Esponja.es"
 headline: "Esponjas Naturales: Las Mejores para tu Cuidado"
 description: "¿Alguna vez te has preguntado cómo unas simples esponjas naturales pueden ser tan versátiles y beneficiosas?"
-datePublished: "2023-08-21T10:00:00"
-dateModified: "2023-08-21T10:00:00"
+datePublished: "2023-08-26T17:20:00"
+dateModified: "2023-08-26T17:20:00"
 socialImage:
   src: "/img/content/esponjas-naturales/esponja-de-luffa-natural-esponja_es.webp"
   mime: "webp"
   alt: "Foto de esponja natural de luffa, esponja.es"
   width: 600
   height: 600
+  enabled: true
+sitemap:
+  lastmod: "2023-08-26T17:20:00"
 ---
 
 _La esponja natural_, como las de mar, vegetales, konjac y luffa, son auténticos tesoros de la naturaleza que ofrecen una amplia gama de usos y beneficios. En este artículo, te sumergirás en el fascinante mundo de las esponjas naturales y descubrirás por qué son tan apreciadas en el cuidado personal, la limpieza del hogar y más.
