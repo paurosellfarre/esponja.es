@@ -1,10 +1,17 @@
 <template>
   <div class="bg-[#FFF6D9] rounded-md grid grid-rows-6 max-h-80">
-    <img
-      :src="refinedSrc"
-      :alt="title"
-      class="rounded-t-md mx-auto row-span-4 object-cover w-full h-full"
-    />
+    <a
+      class="row-span-4"
+      :href="articlelink || amazonlink"
+      :target="articlelink ? '_self' : '_blank'"
+      :rel="articlelink && 'noopener noreferrer'"
+    >
+      <img
+        :src="refinedSrc"
+        :alt="title"
+        :class="`rounded-t-md mx-auto object-cover w-full h-full`"
+      />
+    </a>
     <div class="text-center">
       <p class="text-lg font-semibold mb-2">{{ title }}</p>
       <button
@@ -29,7 +36,7 @@ import { withBase } from "ufo"
 import { useRuntimeConfig, computed } from "#imports"
 
 const props = defineProps({
-  src: {
+  imagesrc: {
     type: String,
     default: "",
   },
@@ -41,6 +48,10 @@ const props = defineProps({
     type: String,
     default: "",
   },
+  articlelink: {
+    type: String,
+    default: "",
+  },
   amazonlink: {
     type: String,
     default: "",
@@ -48,9 +59,9 @@ const props = defineProps({
 })
 
 const refinedSrc = computed(() => {
-  if (props.src?.startsWith("/") && !props.src.startsWith("//")) {
-    return withBase(props.src, useRuntimeConfig().app.baseURL)
+  if (props.imagesrc?.startsWith("/") && !props.imagesrc.startsWith("//")) {
+    return withBase(props.imagesrc, useRuntimeConfig().app.baseURL)
   }
-  return props.src
+  return props.imagesrc
 })
 </script>

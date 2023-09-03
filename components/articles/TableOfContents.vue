@@ -9,7 +9,9 @@
       <li
         v-for="link of flattenLinks(links)"
         :key="link.id"
-        :class="`toc-link_${link.depth} first:mt-0 mt-2 md:mt-1`"
+        :class="`toc-link_${link.depth} first:mt-0 mt-2 md:mt-1 ${
+          link.depth > 2 ? 'hidden md:block' : ''
+        }`"
       >
         <a
           :href="`#${link.id}`"
@@ -43,6 +45,7 @@ const flattenLinks = (links) => {
       return _link
     })
     .flat(1)
+  console.log(_links)
   return _links
 }
 </script>

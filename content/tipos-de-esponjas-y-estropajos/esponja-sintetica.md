@@ -5,7 +5,7 @@ description: "Las esponjas sintéticas y artificiales, también conocidas como e
 datePublished: "2023-08-27T17:20:00"
 dateModified: "2023-08-27T17:20:00"
 socialImage:
-  src: "/img/content/esponjas-naturales/esponja-de-luffa-natural-esponja_es.webp"
+  src: "/img/content/blog/las-15-mejores-tipos-de-esponja/esponja-microfibra.webp"
   mime: "webp"
   alt: "Foto de esponja sintetica de luffa, esponja.es"
   width: 600
@@ -17,11 +17,11 @@ sitemap:
 
 ::custom-grid
 
-<Card src="/img/content/blog/las-15-mejores-tipos-de-esponja/esponja-microfibra.webp" title="Esponjas de Microfibra" amazonlink="https://amzn.to/3OWNccp"/>
+<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/esponja-microfibra.webp" title="Esponjas de Microfibra" amazonlink="https://amzn.to/3OWNccp"/>
 
-<Card src="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-poliester.webp" title="Estropajos de Poliester" amazonlink="https://amzn.to/3PhLaF7"/>
+<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-poliester.webp" title="Estropajos de Poliester" amazonlink="https://amzn.to/3PhLaF7"/>
 
-<Card src="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-aluminio.webp" title="Estropajos de Aluminio" amazonlink="https://amzn.to/3P1hj2q"/>
+<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-aluminio.webp" title="Estropajos de Aluminio" articlelink="esponja-sintetica/estropajo-aluminio" amazonlink="https://amzn.to/3P1hj2q"/>
 ::
 
 ## ¿Qué son las esponjas sintéticas?
