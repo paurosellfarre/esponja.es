@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-[#FFF6D9] rounded-md grid grid-rows-6 max-h-80">
+  <div class="bg-[#FFF6D9] rounded-md grid grid-rows-6 max-h-80 m-1">
     <a
       class="row-span-4"
       :href="articlelink || amazonlink"
       :target="articlelink ? '_self' : '_blank'"
-      :rel="articlelink && 'noopener noreferrer'"
+      :rel="articlelink ? '' : 'noopener noreferrer'"
     >
       <img
         :src="refinedSrc"
