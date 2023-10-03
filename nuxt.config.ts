@@ -7,6 +7,14 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
+    [
+      "@nuxtjs/google-adsense",
+      {
+        id: "ca-pub-5188512571636228",
+        onPageLoad: false,
+        pageLevelAds: false,
+      },
+    ],
   ],
   css: ["/assets/css/main.css"],
   sitemap: {
