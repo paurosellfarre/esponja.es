@@ -8,6 +8,6 @@ const cleanPath = path.replace(/\/+$/, "")
 
 const { data: page, error } = await useAsyncData(
   `content-${cleanPath}`,
-  queryContent("/cookies").findOne
+  queryContent("/cookies").where({ _path: cleanPath }).findOne
 )
 </script>
