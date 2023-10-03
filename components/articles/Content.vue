@@ -10,6 +10,9 @@
             <!-- Description -->
             <p>{{ doc.description }}</p>
 
+            <!-- Google Adsense -->
+            <Adsbygoogle />
+
             <img
               v-if="doc.socialImage.enabled"
               :src="doc.socialImage.src"

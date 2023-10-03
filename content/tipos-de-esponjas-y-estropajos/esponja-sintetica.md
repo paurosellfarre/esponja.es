@@ -17,7 +17,7 @@ sitemap:
 
 ::custom-grid
 
-<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/esponja-microfibra.webp" title="Esponjas de Microfibra" amazonlink="https://amzn.to/3OWNccp"/>
+<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/esponja-microfibra.webp" title="Esponjas de Microfibra" articlelink="esponja-sintetica/esponja-microfibra" amazonlink="https://amzn.to/3OWNccp"/>
 
 <Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-poliester.webp" title="Estropajos de Poliester" amazonlink="https://amzn.to/3PhLaF7"/>
 
