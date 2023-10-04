@@ -19,7 +19,7 @@ sitemap:
 
 <Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/esponja-microfibra.webp" title="Esponjas de Microfibra" articlelink="esponja-sintetica/esponja-microfibra" amazonlink="https://amzn.to/3OWNccp"/>
 
-<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-poliester.webp" title="Estropajos de Poliester" amazonlink="https://amzn.to/3PhLaF7"/>
+<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-poliester.webp" title="Estropajos de Poliester" articlelink="esponja-sintetica/esponja-poliester" amazonlink="https://amzn.to/3PhLaF7"/>
 
 <Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-aluminio.webp" title="Estropajos de Aluminio" articlelink="esponja-sintetica/estropajo-aluminio" amazonlink="https://amzn.to/3P1hj2q"/>
 ::

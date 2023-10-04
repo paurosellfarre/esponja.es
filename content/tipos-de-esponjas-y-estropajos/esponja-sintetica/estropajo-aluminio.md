@@ -80,4 +80,4 @@ En entornos comerciales, estas esponjas son ideales para limpiar herramientas, e
 
 En resumen, **las esponjas de aluminio** son herramientas versátiles y resistentes que facilitan la limpieza y eliminación de manchas en una variedad de superficies. Su durabilidad, textura controlada y resistencia al agua los convierten en aliados confiables en la lucha contra la suciedad y las manchas más difíciles.
 
-Si buscas obtener resultados brillantes y eficientes en tus tareas de limpieza, considera incorporar estropajos de aluminio en tu arsenal de herramientas de limpieza. Su capacidad para enfrentar desafíos de
+Si buscas obtener resultados brillantes y eficientes en tus tareas de limpieza, considera incorporar estropajos de aluminio en tu arsenal de herramientas de limpieza. Su capacidad para enfrentar desafíos
