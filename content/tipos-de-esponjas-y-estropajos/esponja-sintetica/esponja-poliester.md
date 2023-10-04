@@ -5,7 +5,7 @@ description: "Descubre todo sobre las esponjas de poliéster, desde sus caracter
 datePublished: "2023-10-04T17:20:00"
 dateModified: "2023-10-04T17:20:00"
 socialImage:
-  src: "/img/content/blog/las-15-mejores-tipos-de-esponja/esponja-microfibra.webp"
+  src: "/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-poliester.webp"
   mime: "webp"
   alt: "Foto de esponja de microfibra, esponja.es"
   width: 600

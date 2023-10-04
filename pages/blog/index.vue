@@ -10,8 +10,13 @@
 
 <script setup>
 const { data } = await useAsyncData("blog", () =>
-  queryContent("/blog")
+  queryContent("/")
     .only(["headline", "_path", "socialImage", "description", "datePublished"])
     .find()
 )
+
+// Order articles by datePublished
+data._rawValue.sort((a, b) => {
+  return new Date(b.datePublished) - new Date(a.datePublished)
+})
 </script>
