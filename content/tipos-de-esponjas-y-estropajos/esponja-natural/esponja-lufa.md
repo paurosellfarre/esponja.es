@@ -45,9 +45,9 @@ Las esponjas de lufa son completamente naturales y biodegradables, lo que las co
 
 <Card imagesrc="/img/content/esponjas-naturales/lufa_para_lavar.webp" title="6 piezas de lufa orgánica" amazonlink="https://amzn.to/46zbdNW"/>
 
-<Card imagesrc="/img/content/esponjas-naturales/esponja_de_lufa.webp" title="Luffa para el cuidado del cuerpo baño" amazonlink="https://amzn.to/3rSjXzH"/>
+<Card imagesrc="/img/content/esponjas-naturales/esponja_de_lufa.webp" title="Luffa para el cuidado del cuerpo" amazonlink="https://amzn.to/3rSjXzH"/>
 
-<Card imagesrc="/img/content/esponjas-naturales/estropajo_de_lufa.webp" title="Esponjas Naturales para Lavar Platos" amazonlink="https://amzn.to/46GFr1h"/>
+<Card imagesrc="/img/content/esponjas-naturales/estropajo_de_lufa.webp" title="Esponjas Naturales para Lavar" amazonlink="https://amzn.to/46GFr1h"/>
 ::
 
 ## ¿Cómo Usar una Esponja de Lufa?
