@@ -112,16 +112,3 @@ El **mantenimiento y cuidado de las esponjas** es esencial para prolongar su vid
 - Reemplaza las esponjas regularmente, especialmente si presentan mal olor o se ven desgastadas.
 
 Recuerda que el cuidado adecuado de las esponjas no solo garantiza su durabilidad, sino también la higiene de tus tareas de limpieza y cuidado personal. ¡Mantén tus esponjas limpias y en buen estado para obtener los mejores resultados!
-
-### Dónde comprar las mejores esponjas
-
-A continuación, te presentamos una lista de lugares donde puedes encontrar **las mejores esponjas** para cada uso:
-
-::custom-grid
-
-<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/esponja-microfibra.webp" title="Esponjas de Microfibra" articlelink="esponja-sintetica/esponja-microfibra" amazonlink="https://amzn.to/3OWNccp"/>
-
-<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-poliester.webp" title="Estropajos de Poliester" articlelink="esponja-sintetica/esponja-poliester" amazonlink="https://amzn.to/3PhLaF7"/>
-
-<Card imagesrc="/img/content/blog/las-15-mejores-tipos-de-esponja/estropajo-aluminio.webp" title="Estropajos de Aluminio" articlelink="esponja-sintetica/estropajo-aluminio" amazonlink="https://amzn.to/3P1hj2q"/>
-::
