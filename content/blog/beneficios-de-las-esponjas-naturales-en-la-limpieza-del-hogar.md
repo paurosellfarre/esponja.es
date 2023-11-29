@@ -28,21 +28,11 @@ Las **esponjas naturales** ofrecen varias ventajas en comparación con las espon
 
 Existen varios tipos de esponjas naturales que se pueden utilizar en la limpieza del hogar. Algunas de las más comunes son:
 
-Tipo de esponja
-
-Características
-
-Esponja de luffa
-
-Hecha de la planta luffa y tiene una textura exfoliante. Ideal para limpiar superficies rugosas como ollas y sartenes.
-
-Esponja de celulosa
-
-Fabricada a partir de celulosa vegetal. Es suave y absorbente, perfecta para limpiar cristales y superficies delicadas.
-
-Esponja de mar
-
-Proviene del esqueleto calcáreo de ciertos animales marinos. Tiene una textura suave y es ideal para limpiar baños y azulejos.
+| Tipo de esponja     | Características                                                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Esponja de luffa    | Hecha de la planta luffa y tiene una textura exfoliante. Ideal para limpiar superficies rugosas como ollas y sartenes.         |
+| Esponja de celulosa | Fabricada a partir de celulosa vegetal. Es suave y absorbente, perfecta para limpiar cristales y superficies delicadas.        |
+| Esponja de mar      | Proviene del esqueleto calcáreo de ciertos animales marinos. Tiene una textura suave y es ideal para limpiar baños y azulejos. |
 
 **Es importante elegir el tipo de esponja adecuado para cada tarea de limpieza**, ya que cada una tiene sus propias características y beneficios.
 
